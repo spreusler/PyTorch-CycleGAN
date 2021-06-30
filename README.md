@@ -1,6 +1,18 @@
 # Pytorch-CycleGAN
 A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 
+## Fork from original project
+This repository is a fork from the [original repository](https://github.com/aitorzip/PyTorch-CycleGAN). It includes a few bugxixes:
+
+- Added Windows Support by adding if name main mechanism
+- Dataloader drops last image (Error Handling: https://github.com/aitorzip/PyTorch-CycleGAN/issues/18)
+- Fixed issue with old Pytorch version (Data Item: https://github.com/aitorzip/PyTorch-CycleGAN/issues/27)
+
+Note: Before you start to train, you have to start a visdom server instance:
+```
+python -m visdom.server
+```
+
 ## Prerequisites
 Code is intended to work with ```Python 3.6.x```, it hasn't been tested with previous versions
 
