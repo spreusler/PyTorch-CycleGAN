@@ -2,7 +2,7 @@
 A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 
 ## Fork from original project
-This repository is a fork from the [original repository](https://github.com/aitorzip/PyTorch-CycleGAN). It includes a few bugxixes:
+This repository is a fork from the [original repository](https://github.com/aitorzip/PyTorch-CycleGAN). It includes a few bugfixes:
 
 - Added Windows Support by adding if name main mechanism
 - Dataloader drops last image (Error Handling: https://github.com/aitorzip/PyTorch-CycleGAN/issues/18)
